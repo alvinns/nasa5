@@ -1,0 +1,42 @@
+.exoplanet-explorer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e1e1e;
+  color: white;
+  padding: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.navigation-buttons {
+  margin-top: 20px;
+}
+
+.nav-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+.no-results {
+  color: #ccc;
+}
